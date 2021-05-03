@@ -1,0 +1,56 @@
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+ button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.button2{
+	background-color: blue;
+}
+
+.box {
+  cursor: pointer;
+  padding: 60px;
+  width: 30%;
+  border-style: groove;
+  background-color: white;
+  position: absolute; 
+	top: calc(290px/2);
+	left: calc(50% - 290px);
+}
+
+.bg {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(violet, blue);
+}
+
+.box i {
+    position: absolute; 
+  top: calc(630px/2);
+  left: calc(50% - -150px);
+    cursor: pointer;
+}
